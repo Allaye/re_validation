@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Regex Form Validation</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <h1>Registration form </h1>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text", id="name" class="form-control" placeholder="Name">
+                    <div class="invalid-feedback">
+                        Name must be between 2 to 10 characters long
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Zipcode"></label>
+                    <input type="text", id="Zipcode" class="form-control" placeholder="Zipcode">
+                    <div class="invalid-feedback">
+                        Enter a valid zipcode
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Email"></label>
+                    <input type="text", id="Email" class="form-control" placeholder="Email">
+                    <div class="invalid-feedback">
+                        Enter a Valid email
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="Phone"></label>
+                    <input type="text", id="Phone" class="form-control" placeholder="Name">
+                    <div class="invalid-feedback">
+                        Enter a valid phone number
+                    </div>
+                    <input type="submit" value="submit" class="btn btn-primary btn-block">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Boostrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="re.js"></script>
+</body>
+</html>
+
