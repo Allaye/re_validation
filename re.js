@@ -11,7 +11,7 @@ function validateName(){
     if (!re.test(name.value)){
         name.classList.add('is-invalid');
     }else{
-        name.classList.remove('is-valid');
+        name.classList.remove('is-invalid');
     }
 }
 

@@ -1,5 +1,11 @@
 # re_validation
 <h3>Validating a form using just vanilla and regular expression</h3>
+
+<img src="error-form.png"/>
+
+<img src="accepted-form.png"/>
+
+
 The form was implemented using boostrap 
 the validation were made possible using vanilla and regular expression
 
